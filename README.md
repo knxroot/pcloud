@@ -9,7 +9,8 @@
   ssh-keygen -t rsa ~.ssh/llaveportapaples
 * Agregar las siguientes lineas al fichero de bashrc:
 
-```alias pbcopy='xclip -i -sel clipboard'
+```
+alias pbcopy='xclip -i -sel clipboard'
 alias pbpaste='xclip -o -sel clipboard'
 
 function cpc() {
